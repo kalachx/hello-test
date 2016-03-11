@@ -2,7 +2,8 @@
 
 int main(void)
 {
+  printf("zmiana kodu o 11:22\n");
   long i;
-  for(i=0;i<10;printf("a%d\n", i),i++,printf("b%d\n", i)) printf("c%d\n", i);
-  return 1;
+  for(i=0;i<10;i++) printf("c%d\n", i);
+  return 0;
 }
