@@ -1,8 +1,8 @@
 hello.exe: hello.o
-	cc -o $@ $<
+	gcc -o $@ $<
  
 hello.o: hello.c
-	cc -c -o $@ $<
+	gcc -c -o $@ $<
  
 .PHONY: clean
  
