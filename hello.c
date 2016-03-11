@@ -6,7 +6,6 @@ int main(int n, char** s)
   printf("zmiana kodu o 12:40\n");
   long i;
   for(i=1;i<n;i++) printf("arg[%d] = '%s'\n", i, s[i]);
-  sscanf(s[1], "%d", &i);
-  printf("i = %d\n", i);
+  if (sscanf(s[1], "%d", &i)) printf("i = %d\n", i);
   return 0;
 }
