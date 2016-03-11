@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int n; char** s)
+int main(int n, char** s)
 {
   printf("ilosc arg %d\n", n);
   printf("zmiana kodu o 12:40\n");
