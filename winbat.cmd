@@ -9,7 +9,7 @@ GOTO Loop
 :Got_
   SHIFT
   SHIFT
-  GOTO "%0"
+  GOTO %0
 
 :Test1
 echo tst1
