@@ -9,6 +9,6 @@ int main(int n, char** s)
     if (sscanf(s[i], "%d", &j)) printf("arg[%d] = %d\n", i, j);
     else printf("arg[%d] = '%s'\n", i, s[i]);
   //printf("arg[%d] = '%s'\n", i, s[i]);
-error invoker  
+
   return 0;
 }
