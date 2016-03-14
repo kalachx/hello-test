@@ -10,5 +10,5 @@ int main(int n, char** s)
     else printf("arg[%d] = '%s'\n", i, s[i]);
   //printf("arg[%d] = '%s'\n", i, s[i]);
 
-  return 0;
+  return (n==1);
 }
