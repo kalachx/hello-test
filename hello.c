@@ -8,5 +8,5 @@ int main(int n, char** s)
   for(i=1;i<n;i++) 
     if (sscanf(s[i], "%d", &j)) printf("arg[%d] = %d\n", i, j);
     else printf("arg[%d] = '%s'\n", i, s[i]);
-  return 0
+  return 0;
 }
