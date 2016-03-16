@@ -3,7 +3,7 @@
 int main(int n, char** s)
 {
   printf("ilosc arg %d\n", n-1);
-  printf("%s\n", __TIME__);
+  printf("Zbudowano %s o godzinie %s\n", __DATE__, __TIME__);
   long i, j;
   for(i=1;i<n;i++) 
     if (sscanf(s[i], "%d", &j)) printf("arg[%d] = %d\n", i, j);
